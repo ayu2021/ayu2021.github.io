@@ -168,3 +168,8 @@ a.good_church_give {
   background-color: #81c12d;
   border-style: outset;
 }
+
+iframe {
+  display: flex;
+  flex-wrap: nowrap;
+}
