@@ -1,1 +1,21 @@
+.bad_church {
+  background-color: white;
+}
 
+.bad_church_title {
+  font-weight: bold;
+  font-style: sans-serif;
+  background-color: gold;
+}
+a.bad_church_link {
+  border-style: double;
+  font-color: black;
+  font-style: sans-serif;
+  font-size: 16px;
+}
+.bad_church_footer {
+  align-content: center;
+  background-color: gold;
+  font-color: white;
+  font-size: 12px;
+}
