@@ -121,13 +121,14 @@ p.good_church_beliefs {
 /*
 Give Page
 */
-.bad_church_give {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  position: fixed;
-  align-items: center;
-  justify-content: center;
+
+.bad_church_calendar {
+position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+ 
+}
+ 
+.bad_church_calendar iframe {
+position: absolute; top:0; left: 0; width: 100%; height: 100%;
 }
 
 h2.bad_church_give {
@@ -144,13 +145,13 @@ a.bad_church_give {
   border-style: outset;
 }
 
-.good_church_give {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  position: fixed;
-  align-items: center;
-  justify-content: center;
+.good_church_calendar {
+position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+ 
+}
+ 
+.good_church_calendar iframe {
+position: absolute; top:0; left: 0; width: 100%; height: 100%;
 }
 
 h2.good_church_give {
@@ -169,7 +170,3 @@ a.good_church_give {
   border-style: outset;
 }
 
-iframe {
-  display: flex;
-  flex-wrap: nowrap;
-}
