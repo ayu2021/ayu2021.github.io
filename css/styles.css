@@ -24,9 +24,70 @@ a.bad_church_link:link {
 }
 .bad_church_footer {
   text-align: center;
-  font-color: white;
+  background-color: white;
   font-size: 12px;
 }
 .bad_church_bible_verse {
   text-align: center;
+  font-size: 20px;
+}
+.bad_church_introduction_title {
+ font-weight: bold;
+}
+.bad_church_introduction {
+ text-align: center; 
+}
+.bad_church_news_title {
+ font-weight: bold; 
+}
+
+
+.good_church {
+  background-color: white;
+}
+
+.good_church_title {
+  font-weight: bold;
+  font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+}
+a.good_church_link {
+  background-color: green;
+  border-style: double;
+  font-color: black;
+  font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+a.good_church_link:hover {
+    background-color: white;
+  text-decoration: none;
+}
+a.good_church_link:link {
+    font-color: black;
+  text-decoration: none;
+}
+.good_church_footer {
+  text-align: center;
+  background-color: green;
+  font-size: 12px;
+}
+.good_church_bible_verse {
+  text-align: center;
+  font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+  font-size: 20px;
+}
+.good_church_introduction_title {
+ font-weight: bold;
+  font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+}
+.good_church_introduction {
+ text-align: center; 
+ font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+}
+.good_church_news_title {
+ font-weight: bold;
+  font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+}
+.good_church_news {
+  font-family: Chalkboard, ‘Comic Sans’, sans-serif;
 }
