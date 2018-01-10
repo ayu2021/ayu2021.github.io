@@ -1,11 +1,3 @@
-# ayu2021.github.io
-For Muse Project
-
-Sites:
-  - Homepage: ayu2021.github.io/main
-  - About Page: ayu2021.github.io/about
-  - Calendar Page: ayu2021.github.io/calendar
-  - Give Page: ayu2021.github.io/give
- Misc:
-  - CSS file
-  - JS file
+# Muse Project
+All code is public and under an MIT License. 
+The homepage is at ayu2021.github.io/main if you want to access the website on you own devices.
