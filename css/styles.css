@@ -143,6 +143,20 @@ p.bad_church_give {
 a.bad_church_give {
   background-color: white;
   border-style: outset;
+  
+}
+
+a.bad_church_give {
+  background-color: white;
+  border-style: outset;
+  text-decoration: none;
+}
+
+a.good_church_give:link {
+  background-color: #81c12d;
+  border-style: outset;
+    font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+  text-decoration: none;
 }
 
 .good_church_calendar {
@@ -168,5 +182,6 @@ p.good_church_give {
 a.good_church_give {
   background-color: #81c12d;
   border-style: outset;
+    font-family: Chalkboard, ‘Comic Sans’, sans-serif;
 }
 
