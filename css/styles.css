@@ -33,12 +33,14 @@ a.bad_church_link:link {
 }
 .bad_church_introduction_title {
  font-weight: bold;
+ background-color: white;
 }
 .bad_church_introduction {
  text-align: center; 
 }
 .bad_church_news_title {
- font-weight: bold; 
+ font-weight: bold;
+ background-color: white;
 }
 
 
@@ -49,9 +51,10 @@ a.bad_church_link:link {
 .good_church_title {
   font-weight: bold;
   font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+  
 }
 a.good_church_link {
-  background-color: green;
+  background-color: LawnGreen;
   border-style: double;
   font-color: black;
   font-family: Chalkboard, ‘Comic Sans’, sans-serif;
@@ -68,7 +71,7 @@ a.good_church_link:link {
 }
 .good_church_footer {
   text-align: center;
-  background-color: green;
+  background-color: LawnGreen;
   font-size: 12px;
 }
 .good_church_bible_verse {
@@ -79,6 +82,7 @@ a.good_church_link:link {
 .good_church_introduction_title {
  font-weight: bold;
   font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+  background-color: LawnGreen;
 }
 .good_church_introduction {
  text-align: center; 
@@ -87,7 +91,80 @@ a.good_church_link:link {
 .good_church_news_title {
  font-weight: bold;
   font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+  background-color: LawnGreen;
 }
 .good_church_news {
   font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+}
+/*
+About Page
+*/
+.bad_church_beliefs {
+  text-align: center;
+}
+h2.bad_church_beliefs {
+  background-color: white;
+}
+
+.good_church_beliefs {
+  text-align: center;
+}
+h2.good_church_beliefs {
+  background-color: LawnGreen;
+  font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+}
+
+p.good_church_beliefs {
+  font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+}
+
+/*
+Give Page
+*/
+.bad_church_give {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+h2.bad_church_give {
+  background-color: white;
+  text-align: center;
+}
+
+p.bad_church_give {
+  text-align: center;
+}
+
+a.good_church_give {
+  background-color: white;
+  border-style: outset;
+}
+
+.good_church_give {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+h2.good_church_give {
+  background-color: LawnGreen;
+  text-align: center;
+  font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+}
+
+p.good_church_give {
+  text-align: center;
+  font-family: Chalkboard, ‘Comic Sans’, sans-serif;
+}
+
+a.good_church_give {
+  background-color: LawnGreen;
+  border-style: outset;
 }
