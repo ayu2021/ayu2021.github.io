@@ -1,21 +1,32 @@
 .bad_church {
-  background-color: white;
+  background-color: gold;
 }
 
 .bad_church_title {
   font-weight: bold;
   font-style: sans-serif;
-  background-color: gold;
 }
 a.bad_church_link {
+  background-color: white;
   border-style: double;
   font-color: black;
   font-style: sans-serif;
-  font-size: 16px;
+  font-size: 20px;
+  text-decoration: none;
+}
+a.bad_church_link:hover {
+    background-color: gold;
+  text-decoration: none;
+}
+a.bad_church_link:link {
+    font-color: black;
+  text-decoration: none;
 }
 .bad_church_footer {
-  align-content: center;
-  background-color: gold;
+  text-align: center;
   font-color: white;
   font-size: 12px;
+}
+.bad_church_bible_verse {
+  text-align: center;
 }
